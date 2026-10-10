@@ -1,5 +1,33 @@
 # NORS — Nuclear Option Radio System
 
+## Original project and fork attribution
+
+**NORS was created by RehabRocket (DarkSkies Milsim)**,
+[@NORehabRocket](https://github.com/NORehabRocket). The original project is
+[NORehabRocket/NORS---Nuclear-Option-Radio-System](https://github.com/NORehabRocket/NORS---Nuclear-Option-Radio-System).
+Credit for the radio system and its original implementation belongs to that project
+and its contributors, not to ReduxCrew.
+
+This is the **ReduxCrew community fork**, maintained through
+[@madsit83](https://github.com/madsit83) for our server integration and contributions
+back upstream. It is independent of the original project, not an official upstream
+release or an endorsement by its developer.
+
+Our relay lifecycle and security changes are on the
+[`fix/relay-lifecycle-security` branch](https://github.com/madsit83/NORS---Nuclear-Option-Radio-System/tree/fix/relay-lifecycle-security)
+and are proposed in [upstream PR #2](https://github.com/NORehabRocket/NORS---Nuclear-Option-Radio-System/pull/2).
+They are **not included in this fork's `main` branch** by this documentation update.
+Do not assume a fork checkout or an upstream release contains those changes.
+The original feature, installation and in-game verification notes below describe
+upstream NORS; they do not establish end-to-end voice testing of our patch branch.
+
+NORS is distributed under the [MIT license](LICENSE), with the original notice
+**Copyright (c) 2026 RehabRocket (DarkSkies Milsim)** preserved. Keep that license and
+copyright notice with copies or substantial portions of the software, including
+redistributed modified versions. ReduxCrew's contributions do not replace that credit.
+
+---
+
 DCS-SRS–style **positional voice radio** for [Nuclear Option](https://store.steampowered.com/app/2168680/Nuclear_Option/).
 The game has no voice comms, so NORS builds the whole stack: a multi-radio cockpit with
 AM/FM frequencies, **faction-secure nets driven by the in-game datalink**, realistic
